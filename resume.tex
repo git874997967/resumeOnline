@@ -1,0 +1,187 @@
+% Change the size of the paper your CV will be printed on
+% by entering either a4paper or letterpaper here.
+\documentclass[a4paper]{ReadableCV}
+
+% Set color of body text
+\color{black}
+
+\begin{document}
+	
+% Set page colour using X11names colour definitions
+\setPageColour{white}
+
+% Set header details being aligned to the right or left
+% If an image is displayed it will be shown on the
+% opposite side to what is set here.
+\setHeaderAlignment{left}
+
+% Set colour of all headings, header highlights
+\setHeadingColours{SlateGray3}
+
+% Set image file to be displayed in header
+% If left blank no image is displayed
+%\setImage{profilepic.jpg}
+
+% If image not being displayed then user can
+% move contact details to opposite side of
+% page to name and jobtitle.
+% Use either opposite or below
+\setContactLocation{opposite}
+
+% Set up information needed for header.
+% If you do not want to include certain
+% information use {} instead. 
+\setYourName{Zac Yang}
+\setYourJobTitle{Data Engineer Software Engineer}
+\setYourMobileNo{6264935215}
+%\setYourHomeNo{Home phone}
+\setYourEmailAddr{zacyang0701@gmail.com}
+\setYourWebAddr{https://www.linkedin.com/in/zac-yang/}
+
+% Display header information 
+\showHeader
+
+% Set up whether section headings are on the left or right
+\setSectionAlignment{left}
+
+% Creates a new section title / heading
+\newHeading{Personal Profile}
+
+Data/Software Engineer with a demonstrated experience on large-scale (Big) data solutions including databases (SQL/No-SQL) and ETL/Data pipelines using cloud services. Solid understanding of fundamental Computer Science concepts. Familiar with requirement gathering and SDLC. Hands-on programming experience in multi-language such as Python, Java, SQL, PowerShell. Excellent problem-solving skills and software engineering habits, including peer code reviews, unit testing, etc.
+
+\newHeading{Core Skills}
+
+% Add up to nine core skills. If they are
+% all not needed use {} instead.
+\addSkills{OLTP/OLAP/NoSQL}
+	      {MS Azure}
+		  {Java/C\#/Python}
+		  {ETL/ELT/Data Modeling}
+		  {Spark}
+		  {Powershell/R/Scala}
+		  {PowerBI/Tableau}
+		  {DevOps/GIT}
+		  {Agile/Scrum/Spiral}
+		  
+\newHeading{Career Summary}
+
+% Set up whether job title or company printed first
+% Either use JobFirst or CompanyFirst
+\setJobCompanyOrder{JobFirst}
+
+% This displays the whole of the role information
+% including dates [1], job title [2],
+% company name [3] and role summary [4]
+% If a full history is required use \newrole and \roleAchievements
+% If only a brief description needed then just use \newrole
+\newRole{2019 -- present}
+        {Software developer}
+        {Microsoft}
+        {Work as software engineer under Office IP antispam team. Response for maintaining and upgrading the ETL/ELT data pipeline, ADF obs, and components in ADF and ADLS. As well as generate ad-hoc visuals with different tools based on different requirements. }
+\roleAchievements{Troubleshoot issues, errors in ETL services. Generate probes, monitors, alerts for different ETL components and services with C\# and PowerShell.}
+{Built and maintained a big data platform(ADF/ADLS) as per industry standards and best practices.}
+{Performed DB admin activities on the multiple DB Servers. Optimized and tuned slow running queries. Improved the efficiency of the heavy-lift jobs/queries.}
+{Collaborated closely with cross-functional teams,designed efficient data models/structures to support the organization’s data and reporting needs on different platforms.}
+{Engaged with stakeholders to understand requirements, designed and automated the pipeline of reports/dashboards with pull/push triggers.}
+{Migrated old ETL jobs and scripts, pipelines and visuals from on premise environments to the cloud and big data platform.}
+ 
+\newRole{2018 -- 2019}
+{BI developer}
+{Conagra Brands Inc.}
+{Serve under Cost to serve team. Generated annual reports from sketch.  Implemented data modeling, user validation and dynamic filters based on stakeholders' requirements.}
+
+\roleAchievements{Designed and implemented the whole ETL (Extract, Transform, Load) data process with various transactions within SSIS packages to implement business rules and logic.}
+{Generated PowerBI reports, dashboards with Star schema. Implemented complex requirements in PowerBI by using DAX and M language.}
+{Achieved the data refreshment from SAP HANA with PowerBI API in PowerShell scripts, deployed, automated the scripts on CtrlM Servers.}
+{Created customized visuals with R libraries. Embedded the PowerBI visuals within Sales-force homepage with PowerBI-javascript libraries.}
+{Accumulated agile Product Management experience - a full gamut of creating stories, generated PowerBI reports and dashboards, working through user acceptance testing (UAT).}
+{Hold scrum meetings as scrum master. Wrote various documents such as data mapping document, work detail descriptions for KT sessions and future development.}
+\newRole{2013 -- 2015}
+{SQL BI developer}
+{KSDHC Inc.}
+{As a SQL BI engineer, utilize the MS BI stack(SSIS/SSRS/SSAS) to perform ETL process with big scale of data. Includes data cleansing, data labeling and aggregation, etc. Generate different visuals with Microsoft SSRS. }
+\roleAchievements{Created logical and physical data models based on the requirements utilizing Erwin and NaviCat.}
+{Improved the perforance of the offical website by optiming slowly running queries, utilized indexes , partitions and deadlock monitor via SQL Profiler and DTA.}
+{Normalized database tables to avoid redundancy and DML anomalies.}
+{Developed complex SQL scripts and procedures for data profiling and auditing purposes. Combined C\# logic in SSIS packages.}
+{Utilized Microsoft SSIS/SSAS/SSRS to handle ETL logic, create ad-hoc reports with both tabular model and cube model.}
+{Developed various Dashboards and Stories using advanced Tableau features including calculated fields, parameters, table
+calculations, row-level security, R integration and dashboard actions while dealing with Cloud data in SSRS.}
+
+% move, duplicate, delete or comment out the following line if necessary
+%\newpage
+
+% This is training you have done in your own time
+% \newHeading{Personal Development}
+
+% \newCourse{2019}
+% {Course title}
+% {Awarding body}{}
+
+% \newCourse{2019}
+% {Course title}
+% {Awarding body}{}
+
+% \newCourse{2019}
+% {Course title}
+% {Awarding body}{}
+
+% School education
+\newHeading{Education}
+         
+\newCourse{2015 - 2018}{Oregon State University}{Master degree in computer science}{}
+\newCourse{2010 - 2014}{Liaoning Normal University}{Bachelor degree in computer science and technology}{}
+
+\newHeading{Certificates}
+         
+\newCourse{Microsoft:}{Azure Database Administrator Associate}{Since 2019}{}
+\newCourse{Microsoft:}{Data Analyst Associate} {Since 2019}{}
+          
+\clearpage
+ 
+% % Anything below creates a letter
+ 
+% % Displays same header as on CV
+% \showHeader
+
+
+
+% % Name and address must be present but
+% % job title is optional
+% \setRecpName{Mr Deeds}
+% \setRecpJobTitle{Hiring Manager}
+% \setRecpRoad{BigCorp Road}
+% \setRecpTown{BigCorp Town}
+% \setRecpCity{BigCorp City}
+% \setRecpPostcode{X12 3YZ}
+
+% \makeLetter
+
+% % Do not delete \recpname unless you want to call the
+% % recipient something other than the name defined above.
+% Dear \recpname,
+
+% % Do not remove the following line
+% \bigskip
+
+% Please find enclosed my CV in application for the post advertised in the [insert place advertised] on [date advert seen].
+
+% The nature of my [qualification] has prepared me for this position. It involved a great deal of independent research, requiring initiative, self-motivation and a wide range of skills. One of my courses, [insert course], an understanding of the [insert sector] industry was essential. I found this subject very interesting.
+
+% I am a fast and accurate writer, with a keen eye for detail and I should be very grateful for the opportunity to progress. I am able to take on the responsibility of this position immediately, and have the enthusiasm and determination to ensure that I make a success of it.
+
+% Thank you for taking the time to consider this application and I look forward to hearing from you in the near future.
+
+% % Do not remove the following line
+% \bigskip
+
+% % comment, or uncomment, whichever you prefer to use
+% Yours sincerely, % if the opening is "Dear Mr(s) Doe,"
+% %Yours faithfully, % if the opening is "Dear Sir or Madam,"
+
+% % Insert name of image with your signature
+% % If paper colour is not white best to use PNG
+% % with transparency.
+% \closeletter{sig.png}
+
+\end{document}
