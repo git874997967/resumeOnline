@@ -47,21 +47,22 @@
 % Creates a new section title / heading
 \newHeading{Personal Profile}
 
-Data/Software Engineer with a demonstrated experience on large-scale (Big) data solutions including databases (SQL/No-SQL) and ETL/Data pipelines using cloud services. Solid understanding of fundamental Computer Science concepts. Familiar with requirement gathering and SDLC. Hands-on programming experience in multi-language such as Python, Java, SQL, PowerShell. Excellent problem-solving skills and software engineering habits, including peer code reviews, unit testing, etc.
+Data/Software Engineer with a demonstrated experience on Big data solutions including databases (SQL/No-SQL) and ETL/Data pipelines using cloud services. Solid understanding of fundamental Computer Science concepts. Familiar with requirement gathering and SDLC. Hands-on programming experience in multi-language such as Python, Java, SQL, PowerShell. Excellent problem-solving skills and software engineering habits, including peer code reviews, unit testing, etc.
 
 \newHeading{Core Skills}
 
 % Add up to nine core skills. If they are
 % all not needed use {} instead.
-\addSkills{OLTP/OLAP}
-	      {Azure ADF/ADL}
-		  {AWS S3/Glue/Lambda/SNS}
-		  {ETL/ELT/Data Modeling}
+\addSkills{OLTP/OLAP/ETL/ELT}
+	      {Azure ADF/ADL/Scope script}
+		  {AWS S3/Glue/Lambda/Athena}
+		  {Data Modeling/Data Analyzing}
+		  {Git/Docker}
 		  {Java/Python}
-		  {PySpark/boto3}
-		  {Data Pre-processing}
+		  {TSQL/PLSQL/MySQL}
 		  {PowerBI/Tableau}
-		  {Agile/Scrum/Spiral}
+		  {Agile/Scrum/SDLC}
+		  
 		  
 \newHeading{Career Summary}
 
@@ -77,24 +78,25 @@ Data/Software Engineer with a demonstrated experience on large-scale (Big) data 
 \newRole{2021 -- present}
         {Data Engineer}
         {Capital Group}
-        {Act as a data engineer in the Investment Group. Respose for all ETL realted process on the AWS platform. }
-\roleAchievements{Generated Glue jobs by analyzing data from different sources. Such as third-party API, files in S3 bucket. Stream in Kinesis firehose and Dynamo DB.}
+        {Act as a data engineer in the Investment Group. Respose for all ETL realted process on the AWS platform. Fetched data from different kinds of sources such as S3, DynamoDB, Athena and CloudTrail.Then process the logic in Glue and Lambda.}
+\roleAchievements{Generated Glue jobs by analyzing data from different sources. Such as third-party API, parquet files,Athena DB and Dynamo DB.}
 {Utilized Glue jobs and Lambda functions to handle data processing logics with different kinds of triggers such as SQS and events.}
-{Developed and deployed Glue jobs with AWS CDK which extract CloudTrail log into parquet files and dump them into Athena DB automatically.}
-{Troubleshoot the internal data platform issues with the DaaS team. Some improvements as adding datatypes for completeness constraints and changing the logic of ingestion datasets to support multi datasets under the same zip files in the same S3 bucket.}
-{}
-{}
+{Automated ETL process with Glue jobs by using AWS CDK which extract CloudTrail log into parquet files and dump them into Athena DB.}
+{Troubleshoot the internal data platform issues with the other teams. Some improvements as adding datatypes for completeness constraints and changing the logic of ingestion datasets to support multi datasets under the same zip files in the same S3 bucket.}
+{Initiated complex excel logic into ETL Glue jobs. Hold meetings with stakeholders to understand the logic behind the metrics weekly bases. Calculated IRR and other key factors for different funds durning different of stages with Spark sql and user-defined functions.}
+{Defined validation metrics for the datasets and sent result by email by AWS SES. Saved processed datasets into RDS DB and render the visuals via Tableau.}
 \newRole{2019 -- 2021}
         {Software Developer}
         {Microsoft}
-        {Work as a software engineer under Office IP Antispam team. Response for maintaining and upgrading the ETL/ELT data pipeline, ADF jobs, and components in 
-		ADF and ADLS with Cosmos Scope and Kusto. As well as generate Ad-hoc visuals with varieous tools based on different requirements. }
+        {Work as a software engineer under Office IP Antispam team. Response for maintaining and upgrading the ETL/ELT data pipeline, Lens/ADF jobs, and stream dataset in 
+		 Cosmos and ADLS with Scope script and Kusto queries. As well as generate Ad-hoc visuals with varieous tools based on different requirements. }
 \roleAchievements{Migrated Cosmos uploader/downloader with ScopeSDK, T-SQL, and PowerShell from old JScript logic. Equipped with alert and pipeline monitor to enhance durability.}
 {Troubleshoot issues, errors in ETL services. Generated probes, monitors, alerts for different components and services with C\#,Scope language, and PowerShell.}
 {Built and maintained a big data platform (ADF/ADLS) in Cosmos Scope script as per industry standards and best practices.}
 {Performed DB admin activities on the multiple DB Servers. Optimized data pipeline by rewriting new logic and SQL schema, gained both performance and service 
 durability. Reduced up to 20\% storage cost with archiving and re-indexing stale data as well as increase the query performance.}
 {Rescued customers' sensitive data from old DB backup files online. Praised by the managers.}
+{Optimized slow running scope queries by using scope hints. Generate 10+TB level data daily bases.}
 {Implemented Ad-hoc data status monitors and dashboards with PowerBI and Lens platform. Delieverd reports to end users weekly and monthly.}
 
 \newRole{2018 -- 2019}
