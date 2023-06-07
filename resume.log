@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  16 APR 2023 18:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.16)  6 JUN 2023 21:55
 entering extended mode
 **c:/Users/yzm/Documents/GitHub/ZacYang_online/resume.tex
 (c:/Users/yzm/Documents/GitHub/ZacYang_online/resume.tex
@@ -770,6 +770,11 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/el/it' aliased to
 LaTeX Font Info:    Font shape `T1/Roboto-LF/thin/it' will be
 (Font)              scaled to size 10.0pt on input line 81.
 
+Overfull \hbox (4.6474pt too wide) in paragraph at lines 87--87
+[]\T1/cmr/el/n/10 Initialed and man-aged an AWS glue pipeline for pro-cess-ing sen-si-tive data. Con-verted IRR, MoM,FundReturnRatio
+ []
+
+
 Overfull \hbox (1.81586pt too wide) in paragraph at lines 99--99
 []\T1/cmr/el/n/10 Migrated Cos-mos up-loader/downloader with ScopeSDK, T-SQL, and Pow-er-Shell from old JScript logic. Equipped
  []
@@ -790,11 +795,11 @@ Here is how much of TeX's memory you used:
  31576 multiletter control sequences out of 15000+200000
  436966 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,11n,102p,1035b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 98i,10n,102p,1035b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/yzm/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/roboto/rbto_b5rac7.enc} <C:\Users\yzm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\yzm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\yzm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk><C:/Users/yzm/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.pfb><C:/Users/yzm/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/Roboto-Thin.pfb><C:/Users/yzm/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/Roboto-ThinItalic.pfb><C:/Users/yzm/AppData/Local/Programs/MiKTeX/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on c:/Users\yzm\Documents\GitHub\ZacYang_online\resume.pdf (3 pages, 101785 bytes).
+Output written on c:/Users\yzm\Documents\GitHub\ZacYang_online\resume.pdf (3 pages, 102120 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
+ 166 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
