@@ -1,5 +1,6 @@
 <!DOCTYPE>
 <html>
+
 <head>
 	<title>Zhenming Yang | DE SDE | zacyang0701@gmail.com</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -9,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/resume.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/all.min.css">
 </head>
+
 <body>
 	<div id="doc2" class="yui-t7">
 		<div id="inner">
@@ -53,15 +55,24 @@
 							</div>
 							<div class="yui-u">
 								<p class='enlarge'>
-									Data/Software Engineer with a demonstrated experience on large-scale (Big) data solutions including databases (SQL/No-SQL) and ETL / Data pipelines using cloud services.
-									 Solid understanding of fundamental Computer Science concepts. 
-									Familiar with requirement gathering and SDLC. Hands-on programming experience in multi-language 
-									such as Python, Java, SQL, PowerShell. Excellent problem-solving skills and software engineering habits, including peer code reviews, unit testing, etc.
+									Data Software Engineer with strong experience in Big Data solutions, SQL/NoSQL
+									databases, and building ETL/ELT
+									pipelines using cloud services. Proficient in AWS cloud technologies, dbt for
+									analytics engineering, Docker for
+									containerization, and Apache Airflow for workflow orchestration. Skilled in Python,
+									Java, SQL, and PowerShell, with a
+									solid foundation in Computer Science concepts and software engineering best
+									practices. Experienced in requirement
+									gathering and SDLC, with a focus on scalable, efficient data solutions
+								</p>
+								</br>
+								<p class="enlarge">
+									As a Green Card holder. I do not need any sponsorship in the future.
 								</p>
 							</div>
 						</div>
 						<!-- // .yui-gf -->
-						<!-- <div class="yui-gf">
+						<div class="yui-gf">
 							<div class="yui-u first">
 								<h2>Skills</h2>
 							</div>
@@ -70,7 +81,8 @@
 									<h2>Data Engineering</h2>
 									<p> Proven ability to
 										use Cloud data platforms and different languages.
-										Proficient in SQL and ETL process. Great experience with data modeling, large scale of OLAP
+										Proficient in SQL and ETL process. Great experience with data modeling, large
+										scale of OLAP
 										nmanagement, and operations. Good at creating varied ad-hoc visuals to meet
 										stakeholders' requirements. Insights the value of data.</p>
 								</div>
@@ -79,12 +91,7 @@
 									<p>Solid understanding of fundamental Computer Science concepts.</p>
 								</div>
 							</div>
-						</div> -->
-
-
-
-
-
+						</div>
 						<!--// .yui-gf -->
 						<div class="yui-gf">
 							<div class="yui-u first">
@@ -92,20 +99,20 @@
 							</div>
 							<div class="yui-u">
 								<ul class="talent_3">
-									<li>OLTP/OLAP</li>
-									<li>Azure ADF ADL</li>
-									<li class="last">AWS S3/Glue/Lambda/SNS</li>
+									<li>On-prem/Cloud DB</li>
+									<li>AWS/Azure</li>
+									<li class="last">PySpark/Snowflake/Kafka</li>
 								</ul>
 								<ul class="talent_3">
-									<li>ETL/ELT/Data Modeling</li>
-									<li>PySpark/boto3</li>
+									<li>ETL/ELT/DataLake/DeltaLake</li>
+									<li>PySpark/DBT/Docker/Airflow</li>
 									<li class="last">Powershell/R</li>
 								</ul>
 								<ul class="talent_3">
-									<li>Java/Python</li>
-									<li>PowerBI/Tableau</li>
+									<li>Python/SQL/GraphQL</li>
+									<li>Data Visualizations</li>
 									<li class="last">DevOps/GIT</li>
-									 
+
 								</ul>
 							</div>
 						</div>
@@ -119,36 +126,81 @@
 								<div class="job">
 									<h2>Capital Group <small>Investment Group</small></h2>
 									<h3>Data Engineer</h3>
-									<h4>2021-Now</h4>
-									<ul>Generated Glue jobs by analyzing data from different sources. Such as third-party API, JSON or ZIP files in S3 bucket. Stream in Kinesis firehose and Dynamo DB.</ul>
-									<ul>Utilized Glue jobs and Lambda functions to handle data processing logics with different kinds of triggers such as SQS and events.</ul>
-									<ul>Developed and deployed Glue jobs with AWS CDK which extract CloudTrail log into parquet files and dump them into Athena DB automatically.</ul>
-									<ul> Troubleshoot the internal data platform issues with the DaaS team. Some improvements as adding datatypes for completeness constraints and changing the logic of ingestion datasets to support multi datasets under the same zip files in the same S3 bucket.</ul>
+									<h4>2021 Nov - 2024 Oct</h4>
+									<ul>Generated Glue jobs by analyzing data from different sources. Such as files in
+										S3,CloudWatch/CloudTrail logs and
+										other third-party APIs.</ul>
+									<ul>Utilized Glue jobs and Lambda functions to handle data processing logics with
+										different kinds of triggers such as
+										SQS and Glue catalog events.</ul>
+									<ul>Automated ETL process with Glue jobs by using AWS CDK which extract CloudTrail
+										log into parquet files and dump
+										them into Athena DB.</ul>
+									<ul>Initiated,Developed and managed an ETL pipeline. Converted IRR, MoM,
+										FundReturnRatio and other Excel
+										functions in Pyspark. More than 20 Lambda / Glue jobs were included for data
+										staging, logic processing, and
+										datasets validation. All permissions and resources access are defined in AWS
+										CDK.</ul>
+									<ul>Persistent the ETL results into Postgre DB via AWS Glue jobs. Partitioned and
+										indexed monthly coming datasets
+										with pre-defined store procedures to improve performance.</ul>
+									<ul>Managed and automated the Glue jobs in DBT. Including the data validations, SCD
+										checks and documation
+										generation. Modularized and materialized the middle steps into tables. Other
+										features such as seeds for ad-hoc
+										analysis. Macro for user defined functions.</ul>
+									<ul>Rendered Postgre datasets into Tableau visuals and published into different
+										workspaces. Implemented Role-
+										Level-Security to limit different data access requests.</ul>
+									<ul>Read and backfill data from Dremio data source in the AWS Glue job with rotated
+										PAT(private access token)
+										enabled. With the optimized the indexes, the API provid the best performance
+										when compare with APIs from
+										by other teams.</ul>
+									<ul>Modified the Sproc and tuned the data archive sproc by modifing indexes and job
+										schedules. Made the front-end
+										query returned in millieseconds rather than mins than before in Postgres DB.
+									</ul>
 								</div>
 								<div class="job">
 									<h2>Microsoft <small>Office IP AntiSpam</small></h2>
 									<h3>Software Developer</h3>
-									<h4>2019-2021</h4>
-									<ul>Migrated Cosmos uploader/downloader with ScopeSDK, TSQL, and PowerShell from old JScript logic. Equipped with alert and pipeline monitor to enhance the durability.</ul>
-									<ul>Troubleshoot issues, errors in ETL services. Generated probes, monitors, alerts for
+									<h4>2019 May - 2021 May</h4>
+									<ul>Migrated Cosmos uploader/downloader with ScopeSDK, TSQL, and PowerShell from old
+										JScript logic. Equipped with alert and pipeline monitor to enhance the
+										durability.</ul>
+									<ul>Troubleshoot issues, errors in ETL services. Generated probes, monitors, alerts
+										for
 										different ETL components and services with C# and PowerShell.</ul>
-									<ul>Optimized data pipeline by rewriting new logic and SQL schema, gained both performance and service durability. Equipped with alerts and visuals to control the status of the service. </ul>	
-									<ul>Built and maintained a big data platform(ADF/ ADLS) in Cosmos Scope as per industry standards and best practices.</ul>
-									<ul>Performed DB admin activities on the multiple DB Servers. Optimized and tuned slow-running queries up to 20% by troubleshooting issues. Improved the efficiency of the heavy-lift jobs/queries.</ul>
-									<ul>Rescued customers' sensitive data from old DB backup files online. Praised by the manager.</ul>
-									<ul>Collaborated closely with cross-functional teams, created efficient data models / structures to support the organization’s data and reporting needs on Avocado, PowerBI, and Lens Explorer.</ul>
-									<ul>Engaged with stakeholders to understand requirements, designed and automated the pipeline of reports/dashboards with pull/push triggers. Integrated processing steps and waiting time.
+									<ul>Optimized data pipeline by rewriting new logic and SQL schema, gained both
+										performance and service durability. Equipped with alerts and visuals to control
+										the status of the service. </ul>
+									<ul>Built and maintained a big data platform(ADF/ ADLS) in Cosmos Scope as per
+										industry standards and best practices.</ul>
+									<ul>Performed DB admin activities on the multiple DB Servers. Optimized and tuned
+										slow-running queries up to 20% by troubleshooting issues. Improved the
+										efficiency of the heavy-lift jobs/queries.</ul>
+									<ul>Rescued customers' sensitive data from old DB backup files online. Praised by
+										the manager.</ul>
+									<ul>Collaborated closely with cross-functional teams, created efficient data models
+										/ structures to support the organization’s data and reporting needs on Avocado,
+										PowerBI, and Lens Explorer.</ul>
+									<ul>Engaged with stakeholders to understand requirements, designed and automated the
+										pipeline of reports/dashboards with pull/push triggers. Integrated processing
+										steps and waiting time.
 									</ul>
 								</div>
 								<div class="job">
 									<h2>Conagra Brands Inc. <small>Cost to Serve</small> </h2>
 									<h3>Data Engineer</h3>
-									<h4>2018-2019</h4>
+									<h4>2018 Nov - 2019 Mar</h4>
 									<ul>Designed and implemented the whole ETL (Extract, Transform, Load) data process
 										with various transactions within SSIS
 										packages to implement business rules and logic.
 									</ul>
-									<ul>Generated PowerBI reports, dashboards with Star schema. Implemented complex requirements in
+									<ul>Generated PowerBI reports, dashboards with Star schema. Implemented complex
+										requirements in
 										PowerBI by using DAX and M language.</ul>
 									<ul>Reduced refresh waiting time by using PowerBI API in PowerShell
 										scripts, deployed, automated the scripts on CtrlM
@@ -165,18 +217,23 @@
 								<div class="job last">
 									<h2>KHDHC Inc.</h2>
 									<h3>SQL ETL Developer</h3>
-									<h4>2013-2015</h4>
+									<h4>2013 Sep - 2015 Mar</h4>
 									<ul>Created logical and physical data models based on the requirements utilizing
 										Erwin and NaviCat.</ul>
-									<ul>Improved the performance of the official website by optimizing slow-running queries, utilized indexes, partitions, and deadlock monitor via SQL Profiler and DTA.
+									<ul>Improved the performance of the official website by optimizing slow-running
+										queries, utilized indexes, partitions, and deadlock monitor via SQL Profiler and
+										DTA.
 									</ul>
 									<ul>Normalized database tables to avoid redundancy and DML anomalies.</ul>
 									<ul>Developed complex SQL scripts and procedures for data profiling and auditing
 										purposes. Combined C# logic in SSIS packages.</ul>
-									<ul>Utilized Microsoft SSIS/SSAS/SSRS to handle ETL logic, create ad-hoc reports with
+									<ul>Utilized Microsoft SSIS/SSAS/SSRS to handle ETL logic, create ad-hoc reports
+										with
 										both tabular model and cube model.</ul>
-								    <ul>Developed various Dashboards and Stories using advanced Tableau features including calculated fields, 
-										parameters, table calculations, row-level security, R integration,and dashboard actions while dealing with Cloud data in SSRS.</ul>
+									<ul>Developed various Dashboards and Stories using advanced Tableau features
+										including calculated fields,
+										parameters, table calculations, row-level security, R integration,and dashboard
+										actions while dealing with Cloud data in SSRS.</ul>
 								</div>
 							</div>
 							<!--// .yui-u -->
@@ -190,19 +247,25 @@
 								<div class="job">
 									<h2>Kaggle Data Science projects</h2>
 									<h4>2017-2018</h4>
-									<ul>Performed data preprocessing and feature engineering, including correlation analysis, Box-Cox transformation, encoding, etc.</ul> 
-								<ul>Built and hyper-tuned several lasso regression models and Xgboost models, with cross-validation.</ul>
-								<ul>Built an average model of all model predictions.</ul>
-								 
+									<ul>Performed data preprocessing and feature engineering, including correlation
+										analysis, Box-Cox transformation, encoding, etc.</ul>
+									<ul>Built and hyper-tuned several lasso regression models and Xgboost models, with
+										cross-validation.</ul>
+									<ul>Built an average model of all model predictions.</ul>
+
 								</div>
 								<div class="job last">
 									<h2>Graduation Project: Diamond price prediction.</h2>
 									<h4>2017-2018</h4>
 									<ul>Collected diamond data (570K+ records) with JS crawler PhantomJS from BlueNiles.
-										Followed with Data Mining steps(data label, data cleansing, One-Hot Encoder,and PCA, etc).Created predictive analysis model that predicts with up to 93% accuracy the likelihood of correction of predicting price with 10-fold cross-validation.</ul>
+										Followed with Data Mining steps(data label, data cleansing, One-Hot Encoder,and
+										PCA, etc).Created predictive analysis model that predicts with up to 93%
+										accuracy the likelihood of correction of predicting price with 10-fold
+										cross-validation.</ul>
 									<ul> Implemented multiple ML models (linear regression, decision tree, and
 										random forest) in OpenR and Intel MKL library.</ul>
-									<ul>Developed an Interactive GUI platform(mobile friendly) for presenting ML models with Bootstrap framework and
+									<ul>Developed an Interactive GUI platform(mobile friendly) for presenting ML models
+										with Bootstrap framework and
 										Rshiny server.</ul>
 								</div>
 							</div>
